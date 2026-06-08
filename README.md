@@ -1,1 +1,3 @@
 # Predictive-Modelling-for-Credit-Card-Default-
+
+This report explores the use of machine learning to predict credit card default using a dataset of 34,788 clients from Taiwan. Six classification models were trained and evaluated — Logistic Regression, SVM, Decision Tree, Random Forest, KNN, and Gradient Boosting. After data cleaning, missing value imputation, and feature scaling, models were compared using accuracy, recall, F1-score, and AUC-ROC. Gradient Boosting achieved the best AUC-ROC of 0.87. SHAP analysis identified PAY_0 (recent repayment status) as the strongest predictor of default. The report also discusses limitations including class imbalance and demographic bias, and proposes three directions for future improvement.
